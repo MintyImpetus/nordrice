@@ -69,7 +69,7 @@ norda5="#b48ead"
 
 
 
-filemanager="nautilus"
+filemanager="pcmanfm"
 browser="brave"
 mod = "mod4"
 terminal = "alacritty"
@@ -121,6 +121,7 @@ keys = [
     Key([mod], "r", lazy.spawn("rofi -show run -display-run run:")),
     Key([mod], "b", lazy.spawn(browser)),
     Key([mod], "f", lazy.spawn(filemanager)),
+#    Key([], 'Print', lazy.function("gnome-screenshot")),
 ]
 
 groups = [Group(i) for i in "1234"]
@@ -148,13 +149,13 @@ layout_theme = {
 }
 
 layouts = [
-    layout.Columns(**layout_theme),
+    # layout.Columns(**layout_theme),
+    layout.MonadTall(**layout_theme),
     layout.Max(**layout_theme),
     # Try more layouts by unleashing below layouts.
-    layout.Stack(num_stacks=2,**layout_theme),
+    # layout.Stack(num_stacks=2,**layout_theme),
     # layout.Bsp(**layout_theme),
     # layout.Matrix(**layout_theme),
-    layout.MonadTall(**layout_theme),
     # layout.MonadWide(),
     # layout.RatioTile(),
     # layout.Tile(),
@@ -190,7 +191,7 @@ screens = [
                 widget.Sep(padding=6,linewidth=0),
             ],
             24,
-            background=nordd1
+            background=nordd1+"00"
         ),
     ),
 ]
@@ -241,4 +242,3 @@ wmname = "LG3D"
 def start_once():
     home = os.path.expanduser('~')
     subprocess.call([home + '/.config/qtile/autostart.sh'])
-
