@@ -142,8 +142,8 @@ for i in groups:
 
 layout_theme = {
 	"border_width": 5,
-	"border_normal": "#2e3440",
-	"border_focus": "#4c566a",
+	"border_normal": nordd1,
+	"border_focus": nordd4,
 	"margin": 12
 }
 
@@ -175,10 +175,10 @@ screens = [
         top=bar.Bar(
             [
                 widget.Sep(padding=6,linewidth=0),
-                widget.CurrentLayout(),
-                widget.GroupBox(active=nordf4,inactive=nordf3),
+                widget.CurrentLayout(foreground=nordf4),
+                widget.GroupBox(borderwidth=2,this_current_screen_border=nordf3,this_screen_border=norda2,active=nordf3,inactive=nordf4),
                 widget.Prompt(),
-                widget.WindowName(),
+                widget.WindowName(foreground=nordf4),
                 widget.Chord(
                     chords_colors={
                         'launch': ("#ff0000", "#ffffff"),
@@ -186,11 +186,11 @@ screens = [
                     name_transform=lambda name: name.upper(),
                 ),
                 widget.Systray(),
-                widget.Clock(format='%d-%m-%Y %a %p %I:%M'),
+                widget.Clock(foreground=nordf4,format='%d-%m-%Y %a %p %I:%M'),
                 widget.Sep(padding=6,linewidth=0),
             ],
             24,
-            background=nordd2
+            background=nordd1
         ),
     ),
 ]
