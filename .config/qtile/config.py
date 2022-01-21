@@ -69,7 +69,7 @@ norda5="#b48ead"
 
 
 
-filemanager="dolphin"
+filemanager="pcmanfm"
 browser="librewolf"
 mod = "mod4"
 terminal = "alacritty"
@@ -95,7 +95,7 @@ keys = [
 
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
-#    Key([mod, "control"], "h", lazy.layout.grow_left(),
+#    Key([mod, "control"], "y", lazy.layout.grow_left(),
 #        desc="Grow window to the left"),
 #    Key([mod, "control"], "l", lazy.layout.grow_right(),
 #        desc="Grow window to the right"),
@@ -118,14 +118,16 @@ keys = [
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
-    Key([mod], "r", lazy.spawn("dmenu_run -c -l 16")),
+
     Key([mod], "f", lazy.spawn(filemanager)),
+    Key([mod], "r", lazy.spawn("dmenu_run -c -l 16")),
+    Key([mod], "v", lazy.spawn(terminal + " --command alsamixer")),
     Key([mod], "p", lazy.spawn(browser + " --private-window https://youtube.com")),
     Key([mod], "b", lazy.spawn(browser)),
 #    Key([], 'Print', lazy.function("gnome-screenshot")),
 ]
 
-groups = [Group(i) for i in "1234"]
+groups = [Group(i) for i in "12345"]
 
 for i in groups:
     keys.extend([
