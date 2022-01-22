@@ -121,7 +121,7 @@ keys = [
 
     Key([mod], "f", lazy.spawn(filemanager)),
     Key([mod], "r", lazy.spawn("dmenu_run -c -l 16")),
-    Key([mod], "v", lazy.spawn(terminal + " --command alsamixer")),
+    Key([mod], "v", lazy.spawn(terminal + " --command alsamixer -c 2")),
     Key([mod], "p", lazy.spawn(browser + " --private-window https://youtube.com")),
     Key([mod], "b", lazy.spawn(browser)),
 #    Key([], 'Print', lazy.function("gnome-screenshot")),
