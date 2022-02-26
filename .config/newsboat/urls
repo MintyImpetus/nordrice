@@ -1,0 +1,32 @@
+" "
+"query:Unread Articles:unread = \"yes\""
+" "
+"- - Blogs - -"
+https://christine.website/blog.rss
+https://lukesmith.xyz/rss.xml
+
+" "
+"- - Youtube Channels - -"
+"- Comedy -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTSRIY3GLFYIpkR2QwyeklA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSUf5_EPEfl4zlBKZHkZdmw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoo-9GEm2mpyYIXSptrKIpA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzfyYtgvkx5mLy8nlLlayYg
+" "
+"- Smart -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg
+" "
+"- - Podcasts - -"
+"- Comedy -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrvuY59InDI3iKvopKT8PEw
+" "
+"- Smart -"
+https://notrelated.xyz/rss
+" "
+"- - Twitter Accounts - -"
+"People tweet too much."
+#https://nitter.42l.fr/theprincessxena/rss
+#https://nitter.42l.fr/elonmusk/rss
+#https://nitter.42l.fr/LilNasX/rss
