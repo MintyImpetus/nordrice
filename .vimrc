@@ -13,7 +13,11 @@ set ignorecase
 call plug#begin()
 
 Plug 'arcticicestudio/nord-vim'
+"Plug 'jceb/vim-orgmode'
+"Plug 'tpope/vim-speeddating'
 
 call plug#end()
 
 colorscheme nord
+
+set mouse=a

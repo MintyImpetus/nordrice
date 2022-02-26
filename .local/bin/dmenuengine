@@ -1,0 +1,2 @@
+#!/bin/sh
+engine=$(cat ~/.config/dmenuengine/engines | dmenu -c -l 10) && echo $engine &&  engine=$(echo $engine | sed 's/ /+/g') && $1 $engine
