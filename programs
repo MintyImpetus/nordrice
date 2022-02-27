@@ -1,0 +1,9 @@
+ttf-joypixels
+libxft-bgra
+newsboat
+alacritty
+nm-applet
+volumeicon
+#For surf video playing VV
+gstreamer gst-plugins-good gst-libav
+playerctl
