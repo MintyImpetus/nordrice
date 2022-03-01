@@ -1,4 +1,4 @@
-picom -b &
+picom --experimental-backends -b &
 setbg &
 nm-applet &
 volumeicon &
