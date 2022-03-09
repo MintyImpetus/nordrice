@@ -19,4 +19,4 @@ esac
 
 xwallpaper --zoom "$bgloc"
 
-convert -size 1920x1080 "$bgloc" .local/share/image.xpm
+convert "$bgloc" -resize 1920x1080 .local/share/image.xpm
