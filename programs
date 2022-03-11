@@ -7,3 +7,8 @@ volumeicon
 #For surf video playing VV
 gstreamer gst-plugins-good gst-libav
 playerctl
+#For ytfzf
+Dmenu
+(yay) ytfzf
+jq
+mpv
