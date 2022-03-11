@@ -373,7 +373,7 @@ command_exists "parse_search_hist_file" || parse_search_hist_file () {
 #this comes from invidious' api
 : "${thumbnail_quality=high}"
 : ${sub_link_count:=2}
-: "${invidious_instance:=https://vid.puffyan.us}"
+: "${invidious_instance:=https://inv.mimpetus.com}"
 : "${yt_video_link_domain:=https://youtube.com}"
 : ${pages_to_scrape:=1}
 : ${odysee_video_search_count:=30}
