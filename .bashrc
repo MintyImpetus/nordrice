@@ -10,10 +10,12 @@ PS1='[\u@\h \W]\$ '
 
 # Important System Aliases
 
+alias p="doas pacman"
 alias pi="doas pacman -S"
 alias pu="doas pacman -Syyyu"
 
 alias v="vim"
+alias lf="lfub"
 
 # Random other things
 

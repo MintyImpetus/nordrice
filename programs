@@ -12,3 +12,7 @@ Dmenu
 (yay) ytfzf
 jq
 mpv
+
+lf # VVV
+ueberzug #might need to install it through pip
+bat # for fancy text previews
