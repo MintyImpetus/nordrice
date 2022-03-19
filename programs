@@ -13,6 +13,6 @@ Dmenu
 jq
 mpv
 
-lf # VVV
+lf # VVV # Have yet to get emojis working in lf
 ueberzug #might need to install it through pip
 bat # for fancy text previews
