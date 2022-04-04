@@ -1,5 +1,5 @@
 #auto-reload yes
-browser "librewolf %u &"
+browser "setsid -f librewolf %u > /dev/null"
 
 #Newsboat colour scheme to work with the Nord palette
 # from Arctic Studios - https://github.com/arcticicestudio/nord
